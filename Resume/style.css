@@ -91,9 +91,10 @@
 
 .buttons a{
     margin-right: 20px;
+    z-index:2;
 }
 a:hover{
-    color: rgb(180, 138, 238);
+    color: rgb(160, 119, 223);
 }
 
 hr {
@@ -191,31 +192,31 @@ hr {
 
 
 /* bubble effect */  
-  .bubble{
+ /*  .bubble{
     position:absolute;
     top:0;
     left:0;
     width:100%;
     height:100%;
-    /* z-index 預設值為 1
-       數字越大圖層越前面 */
+    z-index 預設值為 1
+       //數字越大圖層越前面 
     z-index:0;
-    /*upgrade gpu rendering*/
+    //upgrade gpu rendering
     transform:translateZ(0);
   }
-  
-  .bubble li{
+  */
+   /* .bubble li{
     position:absolute;
     list-style:none;
     display:block;
     background:rgba(255,255,255,0.2);
-    /* 從底層生出泡泡 */
+   //從底層生出泡泡 
      bottom:-350px; 
     animation:bubble-ani 20s linear infinite;
     border-radius:100%;
   }
-  
-  /* 製作泡泡 */
+  */
+  /* 製作泡泡 
   .bubble li:before {
       position: absolute;
       left: 20%;
@@ -275,4 +276,4 @@ hr {
       -webkit-transform:translateY(-1080px);
       transform:translateY(-1080px);
     }
-  }
+  }*/
