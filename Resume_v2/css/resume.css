@@ -3,6 +3,7 @@
   /* border: 1px solid gray  ; */
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  font-family: "Kosugi","Abel", sans-serif;
 }
 
 body {
@@ -18,7 +19,6 @@ body {
   font-size: 15px;
   line-height: 28px;
   letter-spacing: 1px;
-  z-index: 1;
 }
 
 /*  Reset  */
@@ -46,7 +46,7 @@ a {
 }
 
 h2::after {
-  content: '';
+  content: "";
   display: inline-block;
   width: 20px;
   height: 8px;
@@ -85,7 +85,8 @@ span {
           flex: 7;
 }
 
-.leftBlock, .rightBlock {
+.leftBlock,
+.rightBlock {
   padding: 15px;
 }
 
@@ -103,7 +104,7 @@ span {
   width: 200px;
   height: 200px;
   background-image: url(https://upload.cc/i1/2020/08/05/W9mc5F.png);
-  background-size: 250px;
+  background-size: cover;
   background-position: center;
   border-radius: 20px;
   position: absolute;
@@ -113,7 +114,6 @@ span {
 
 .buttons a {
   margin-right: 20px;
-  z-index: 2;
 }
 
 a:hover {
@@ -163,7 +163,7 @@ hr {
 }
 
 .circle::after {
-  content: '';
+  content: "";
   display: block;
   background-color: #e1c2f9;
   width: 30px;
@@ -176,7 +176,10 @@ hr {
           transform: translate(-50%, -50%);
 }
 
-.p90, .p180, .p270, .p360 {
+.p90,
+.p180,
+.p270,
+.p360 {
   width: 50%;
   height: 50%;
   position: absolute;
